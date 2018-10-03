@@ -1,0 +1,2 @@
+curl --header 'Host: a' --header 'X-Key: richard'  --header 'X-Value: 256' -vk https://server/setmap
+
