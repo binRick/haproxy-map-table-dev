@@ -1,0 +1,12 @@
+echo "show table Abuse" | socat /var/lib/haproxy/stats stdio
+
+echo "show map /etc/haproxy/test.map" | socat /var/lib/haproxy/stats stdio
+
+
+haproxytool map -l
+
+aproxytool map -s 7
+
+haproxytool table -l
+
+haproxytool dump
